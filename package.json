@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "buildwww": "rm -rf www/ docs/; npx ionic cordova build browser --prod; cp src/404.html www/; cp platforms/browser/config.xml www/; mv www docs; grep -rl '(YOUR_API_KEY_IS_HERE)' ./docs/ | xargs sed -i '' 's/(YOUR_API_KEY_IS_HERE)/(API_KEY)/g'",
+    "buildwww": "rm -rf www/ docs/; npx ionic cordova build browser --prod; cp src/404.html www/; cp platforms/browser/config.xml www/; mv www docs; grep -rl '(AIzaSyBb54FFfGJ4NcnhZnggEYHYPiv00lcka6Y)' ./docs/ | xargs sed -i '' 's/(AIzaSyBb54FFfGJ4NcnhZnggEYHYPiv00lcka6Y)/(AIzaSyBb54FFfGJ4NcnhZnggEYHYPiv00lcka6Y)/g'",
     "link": "bash bin/local_dev.sh"
   },
   "private": true,
